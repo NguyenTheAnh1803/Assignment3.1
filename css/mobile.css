@@ -1,0 +1,40 @@
+@media screen and (max-width: 600px) {
+  #banner{
+    width: 100%;
+    background-size: 100%;
+    
+  }
+  .container-section {
+    display: block;
+    border: none;
+  }
+  #job-info >.container{
+    grid-template-columns: 1fr;
+  }
+  #about > .container{
+    height: auto ;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  #about .container,
+ 
+  .prize
+  {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .prize{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    
+  }
+  .prize-one, .prize-two, .prize-three{
+    border-bottom: 1px solid orange;
+   flex-direction: column;
+
+  }
+  .project-content{
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr;
+  }
+}
